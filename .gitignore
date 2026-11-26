@@ -1,0 +1,37 @@
+# Rocq build artifacts
+*.vo
+*.vok
+*.vos
+*.glob
+*.aux
+.*.aux
+*.d
+.*.d
+*.timing
+*.v.timing
+*.v.before-timing
+*.v.after-timing
+*.timing.diff
+time-of-build-*.log
+.lia.cache
+.nia.cache
+.nra.cache
+lia.cache
+nia.cache
+nra.cache
+.coq-native/
+
+# Generated makefiles
+Makefile.coq
+Makefile.coq.conf
+Makefile-examples.coq
+Makefile-examples.coq.conf
+
+# Local opam switch link
+_opam
+
+# Editors, OS and local tooling
+.vscode/
+.DS_Store
+.claude/
+.rocql/

@@ -1,0 +1,30 @@
+-arg -allow-rewrite-rules
+-arg -exclude-dir
+-arg _opam
+-Q Prelude Prelude
+-R theories IncRocq
+
+# Load path only: examples are compiled by `make examples` via _CoqProject.examples.
+# Listed here so editors (rocq-lsp / VsRocq) can resolve `From IncRocq.examples Require ...`.
+-R examples IncRocq.examples
+
+Prelude/Logic.v
+Prelude/Datatypes.v
+Prelude/String.v
+Prelude/RelationClasses.v
+Prelude/Relation_Definitions.v
+Prelude/LargeElim.v
+
+theories/Base.v
+theories/gen/Utils.v
+theories/gen/Catch.v
+theories/gen/HoleMatch.v
+theories/gen/Source.v
+theories/gen/Complete.v
+theories/gen/Refinable.v
+theories/gen/CompleteMinimal.v
+theories/gen/All.v
+theories/Reformulation.v
+theories/Tactics.v
+theories/IncRocq.v
+

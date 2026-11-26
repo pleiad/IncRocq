@@ -1,0 +1,34 @@
+-arg -allow-rewrite-rules
+-arg -exclude-dir
+-arg _opam
+
+-Q Prelude Prelude
+-R theories IncRocq
+
+# Examples live under IncRocq.examples.
+-R examples IncRocq.examples
+
+examples/stlc/Map.v
+examples/stlc/STLC.v
+examples/stlc/Incremental.v
+
+examples/comp/Nat.v
+examples/comp/NatAuto.v
+
+# library/ tests the IncRocq library itself (generator + tactics), not a domain case study.
+examples/library/AbsurdComplete.v
+examples/library/EqAnti.v
+examples/library/Discriminate.v
+examples/library/Generators.v
+examples/library/Induction.v
+examples/library/Injection.v
+examples/library/Inversion.v
+examples/library/EqMono.v
+examples/library/EqMonoTactic.v
+examples/library/Rewrite.v
+examples/library/LargeElim.v
+examples/library/HoleFields.v
+examples/library/GenComplete.v
+examples/library/GenRefinable.v
+examples/library/GenCompleteMinimal.v
+examples/library/GenApply.v

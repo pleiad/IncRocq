@@ -1,0 +1,20 @@
+[submodule "coq"]
+	path = deps/coq
+	url = https://github.com/TDiazT/coq.git
+	branch = icp
+	ignore = untracked
+[submodule "metarocq"]
+	path = deps/metarocq
+	url = https://github.com/TDiazT/metarocq.git
+	branch = icp
+	ignore = untracked
+[submodule "stdlib"]
+	path = deps/stdlib
+	url = https://github.com/rocq-prover/stdlib.git
+	branch = master
+	ignore = untracked
+[submodule "Coq-Equations"]
+	path = deps/Coq-Equations
+	url = https://github.com/TDiazT/Coq-Equations.git
+	branch = icp
+	ignore = untracked
